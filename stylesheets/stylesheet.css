@@ -56,11 +56,15 @@ body {
   color: #6d6d6d;
 }
 
+b {
+	font-weight: bold;
+}
+
 a {
   color: #d5000d;
 }
 a:hover {
-  color: #c5000c;
+  color: #b5000b;
 }
 
 header {
@@ -69,7 +73,7 @@ header {
 }
 
 header h1 {
-  font-family: 'Chivo', 'Helvetica Neue', Helvetica, Arial, serif; font-weight: 900;
+  font-family: 'Chivo', 'Helvetica Neue', Helvetica, Arial, serif; font-weight: 800;
   letter-spacing: -1px;
   font-size: 48px;
   color: #303030;
@@ -155,6 +159,15 @@ a.button span {
 #download-zip span {
   background: transparent url(../images/zip-icon.png) 12px 50% no-repeat;
 }
+
+#view-on-drive span {
+  background: transparent url(../images/drive-icon.png) 12px 50% no-repeat;
+}
+
+#applepi span {
+  background: transparent url(../images/applepi-icon.png) 15px 50% no-repeat;
+}
+
 #download-tar-gz span {
   background: transparent url(../images/tar-gz-icon.png) 12px 50% no-repeat;
 }
@@ -318,10 +331,10 @@ footer {
 }
 
 footer a {
-  color: #666;
+  color: #aaa;
 }
 footer a:hover {
-  color: #444;
+  color: #999;
 }
 
 /* MISC */
